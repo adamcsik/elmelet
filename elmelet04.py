@@ -3,10 +3,12 @@
 def osszeadas(a, b):
     global kerulet
     kerulet = 25
-    eredmeny = sum(a, b)
+    eredmeny = a + b
     #pass
     return eredmeny
 
+
+kerulet = 0
 print(osszeadas(8, 99))
 print(kerulet)
 
