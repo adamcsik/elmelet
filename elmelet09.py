@@ -16,6 +16,11 @@ class Negyzet(Teglalap):
         self.a_oldal = a_oldal
         self.b_oldal = a_oldal
 
+class Haromszog(Teglalap):
+    pass
+
+class Trapez(Teglalap):
+    pass
 
 tegla = Teglalap(8,3)
 
